@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Niset Stay</title>
+  <meta name="title" content="Niset Stay">
+  <meta name="description" content="This is the website for student at university">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <link rel="stylesheet" href="./assets-roomdetail/css/room-detail.css">
+
+  <script src="./assets-roomdetail/js/room-detail.js" defer></script>
+
+</head>
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets-roomdetail/images/logo.png" width="260" height="40" alt="Niset Stay">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li>
+            <a href="index.html" class="navbar-link label-medium">Home</a>
+          </li>
+          <li>
+            <a href="rent.html" class="navbar-link label-medium active">Rent</a>
+          </li>
+          <li>
+            <a href="news.html" class="navbar-link label-medium">News & Events</a>
+          </li>
+          <li>
+            <a href="login.html" class="navbar-link label-medium">About us</a>
+          </li>
+          <li>
+            <a href="contact.html" class="navbar-link label-medium">Contact us</a>
+          </li>
+        </ul>
+
+        <div class="navbar-wrapper">
+          <a href="signin.html" class="btn-link label-medium">Login</a>
+          <a href="rent.html" class="btn btn-fill label-medium">Get Started</a>
+        </div>
+      </nav>
+
+      <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+        <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+        <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+      </button>
+
+    </div>
+  </header>
+
+  <div id="lightbox" class="lightbox">
+    <span class="close">×</span>
+    <span class="prev">❮</span>
+    <img id="lightbox-img" alt="Full view screen">
+    <span class="next">❯</span>
+  </div>
+
+  <div class="container detailed-page">
+
+    <div class="title-row">
+        <div>
+            <h1 id="title">🔥 ROOM FOR RENT IN TONLE BASSAC</h1>
+            <div class="tags">
+                <span>Room for Rent</span>
+            
+            </div>
+            <p class="date">2026-03-12 06:42:40</p>
+            <p class="property-id">Property ID: C21_R02113</p>
+        </div>
+        <div class="price-box">
+            <small>Rent</small>
+            <h2 id="price">$75/month</h2>
+        </div>
+    </div>
+
+    <div class="gallery">
+        <div class="main-image">
+            <img id="mainImg" src="./assets-roomdetail/images/property-1.jpg" alt="Main view">
+        </div>
+        <div class="small-images">
+            <img id="img1" src="./assets-roomdetail/images/property-3.jpg" alt="Room thumbnail 1">
+            <img id="img2" src="./assets-roomdetail/images/property-4.jpg" alt="Room thumbnail 2">
+            <img id="img3" src="./assets-roomdetail/images/property-5.jpg" alt="Room thumbnail 3">
+            <img id="img4" src="./assets-roomdetail/images/property-6.jpg" alt="Room thumbnail 4">
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="left">
+            <h3>Overview</h3>
+            <div class="features">
+                <div>
+                    <i class="fa-solid fa-bed"></i>
+                    <h4>7 Beds</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-bath"></i>
+                    <h4>8 Baths</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-warehouse"></i>
+                    <h4>2 Garages</h4>
+                </div>
+                <div>
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <h4>120 m²</h4>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Description</h3>
+                <p id="description">🔥 <b>Room for Rent in Tonle Bassac</b></p>
+                <br>
+                <p>Rental Price: <b>$75/month</b> <i>(Negotiable)</i></p>
+                <br>
+                <h4>Property Details</h4>
+                <ul>
+                    <li>House Size: 4m × 4m</li>
+                    <li>Land Size: 4m × 4m</li>
+                    <li>Bedrooms: 1</li>
+                    <li>Bathrooms: 1</li>
+                    <li>Fully Furnished</li>
+                    <li>Air Conditioner</li>
+                    <li>Free WiFi</li>
+                    <li>Water Supply Included</li>
+                    <li>Parking Available</li>
+                    <li>24/7 Security</li>
+                </ul>
+                <br>
+                <h4>Rental Conditions</h4>
+                <ul>
+                    <li>Contract: 1 Year</li>
+                    <li>Deposit: 2 Months</li>
+                    <li>No Pets Allowed</li>
+                    <li>Electricity Paid Separately</li>
+                </ul>
+            </div>
+
+            <div class="box">
+                <h3>Feature</h3>
+                <div class="feature-tags">
+                    <span>Air Conditioner</span>
+                    <span>WiFi</span>
+                    <span>Parking</span>
+                    <span>Kitchen</span>
+                    <span>Balcony</span>
+                    <span>Security</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Map</h3>
+                <iframe width="100%" height="300" style="border:0" loading="lazy" allowfullscreen src="https://maps.google.com/maps?q=Tonle%20Bassac%20Phnom%20Penh&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="share-box">
+                <h4>Share</h4>
+                <div class="social">
+                    <a class="fb"><i class="fab fa-facebook-f"></i></a>
+                    <a class="tw"><i class="fab fa-twitter"></i></a>
+                    <a class="in"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="pi"><i class="fab fa-pinterest-p"></i></a>
+                    <a class="te"><i class="fab fa-telegram"></i></a>
+                    <a class="wa"><i class="fab fa-whatsapp"></i></a>
+                </div>
+                <button class="like-btn">
+                    <i class="fa-regular fa-heart"></i> Like
+                </button>
+            </div>
+
+            <div class="contact-box">
+                <h3>Contact Us</h3>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="text" placeholder="Subject">
+                <input type="text" placeholder="Number">
+                <textarea rows="5" placeholder="Write message"></textarea>
+                <button>Send Message</button>
+            </div>
+
+            <div class="filter-box">
+                <h4>Type</h4>
+                <div class="btn-group">
+                    <!-- Links to your main listings/rent page -->
+                    <a href="rent.html" class="btn">All</a>
+                    <a href="rent.html" class="btn">Rent</a>
+                    <a href="rent.html" class="btn">Sale</a>
+                    <a href="rent.html" class="btn">Hot</a>
+                </div>
+            </div>
+
+            <div class="filter-box">
+                <h4>Status</h4>
+                <div class="btn-group">
+                    <a href="rent.html" class="btn">All</a>
+                    <a href="rent.html" class="btn">Sold</a>
+                    <a href="rent.html" class="btn">Rented</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+<!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.png" width="260" height="40" alt="Niset Stay">
+          </a>
+
+          <p class="body-medium footer-text">
+            Escape the campus rush. Niset Stay gives university students a quiet, comfortable sanctuary to come home to. Study hard, sleep better, and enjoy a space that’s truly yours.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-labelledby="nav-label-1">
+          <p class="title-small footer-list-title" id="nav-label-1">Quick link</p>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="index.html" class="body-medium footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="rent.html" class="body-medium footer-link">Buy</a>
+            </li>
+
+            <li>
+              <a href="rent.html" class="body-medium footer-link">Sell</a>
+            </li>
+
+            <li>
+              <a href="rent.html" class="body-medium footer-link">Rent</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-labelledby="nav-label-2">
+          <p class="title-small footer-list-title" id="nav-label-2">Support</p>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="login.html" class="body-medium footer-link">About us</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="body-medium footer-link">Contact us</a>
+            </li>
+
+            <li>
+              <a href="login.html" class="body-medium footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="news.html" class="body-medium footer-link">Terms & Conditions</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-labelledby="nav-label-3">
+          <p class="title-small footer-list-title" id="nav-label-3">Get in touch</p>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="#" class="body-medium footer-link">houseandroom@nisetstay.com</a>
+            </li>
+
+            <li>
+              <address class="address body-medium">
+                Teuk Thla, Sen Sok, Phnom Penh, Cambodia
+              </address>
+            </li>
+
+            <li>
+              
+              <ul class="social-list">
+
+                <li>
+                  <a href="https://www.facebook.com/gotopheapb?mibextid=wwXIfr&mibextid=wwXIfr" class="social-link">
+                    <img src="./assets/images/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://x.com/gotopheap_b?s=11" class="social-link">
+                    <img src="./assets/images/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/gotopheap.b?igsh=MTU2ZWt5a2JjYnRwZQ%3D%3D&utm_source=qr" class="social-link">
+                    <img src="./assets/images/insta.svg" alt="instagram">
+                  </a>
+                </li>
+
+              </ul>
+
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright body-medium">
+          Copyright 2026 codebysopheap
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+</body>
+</html>

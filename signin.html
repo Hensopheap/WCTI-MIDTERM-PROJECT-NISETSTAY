@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Niset Stay</title>
+  <meta name="title" content="Niset Stay">
+  <meta name="description" content="This is the website for student at university">
+
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+  <link rel="stylesheet" href="./assets-signin/css/signin.css">
+  
+
+  <script src="./assets-signin/css/js/script.js" defer></script>
+
+</head>
+<body>
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="260" height="40" alt="Niset Stay">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link label-medium">Home</a>
+          </li>
+
+          <li>
+            <a href="rent.html" class="navbar-link label-medium">Rent</a>
+          </li>
+
+          <li>
+            <a href="news.html" class="navbar-link label-medium">News & Events</a>
+          </li>
+
+          <li>
+            <a href="login.html" class="navbar-link label-medium">About us</a>
+          </li>
+
+          <li>
+            <a href="contact.html" class="navbar-link label-medium">Contact us</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-wrapper">
+          <a href="signin.html" class="btn-link label-medium active">Login</a>
+
+          <a href="rent.html" class="btn btn-fill label-medium">Get Started</a>
+        </div>
+
+      </nav>
+
+      <button class="nav-toggle-btn icon-btn" aria-label="toggle navbar" data-nav-toggler>
+        <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+
+        <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+      </button>
+
+    </div>
+  </header>
+
+ <main>
+  <section class="ns-login-page">
+    <div class="ns-login-container">
+      
+      <div class="ns-login-left-panel">
+        <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200" alt="Student Room">
+        <div class="ns-overlay"></div>
+        <div class="ns-welcome-content">
+          <h1 id="welcomeTitle">Welcome Back!</h1>
+          <p id="welcomeText">
+            Find your perfect student room with Niset Stay. Log in to manage bookings, save favourite rooms, and connect with trusted landlords.
+          </p>
+        </div>
+      </div>
+
+      <div class="ns-login-right-panel">
+        <div class="ns-form-container">
+          
+          <div class="ns-login-logo" style="display: flex; justify-content: center; align-items: center; margin-bottom: 24px;">
+            <a href="#" class="logo">
+              <img src="./assets-signin/image/logo.png" width="260" height="40" alt="Niset Stay">
+            </a>
+          </div>
+
+          <div class="ns-tabs">
+            <button type="button" class="ns-tab active" id="loginTab">Login</button>
+            <button type="button" class="ns-tab" id="registerTab">Register</button>
+          </div>
+
+          <form id="loginForm" class="ns-form active-form">
+            <h3 style="text-align: center; margin-bottom: 24px;">Sign In</h3>
+            <div class="ns-input-box">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="ns-input-box">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" required>
+            </div>
+            <div class="ns-extra-links">
+              <label>
+                <input type="checkbox"> Remember me
+              </label>
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button type="submit" class="ns-login-btn">Login</button>
+          </form>
+
+          <form id="registerForm" class="ns-form">
+            <h3 style="text-align: center; margin-top: 12px; margin-bottom: 24px;">Create Account</h3>
+            <div class="ns-input-box">
+              <i class="fa-solid fa-user"></i>
+              <input type="text" placeholder="Full Name" required>
+            </div>
+            <div class="ns-input-box">
+              <i class="fa-solid fa-envelope"></i>
+              <input type="email" placeholder="Email Address" required>
+            </div>
+            <div class="ns-input-box">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Password" required>
+            </div>
+            <div class="ns-input-box">
+              <i class="fa-solid fa-lock"></i>
+              <input type="password" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit" class="ns-login-btn">Create Account</button>
+          </form>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/logo.png" width="260" height="40" alt="Niset Stay">
+          </a>
+
+          <p class="body-medium footer-text">
+            Escape the campus rush. Niset Stay gives university students a quiet, comfortable sanctuary to come home to. Study hard, sleep better, and enjoy a space that’s truly yours.
+          </p>
+        </div>
+
+        <nav class="footer-nav" aria-labelledby="nav-label-1">
+          <p class="title-small footer-list-title" id="nav-label-1">Quick link</p>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="index.html" class="body-medium footer-link">Home</a>
+            </li>
+
+            <li>
+              <a href="rent.html" class="body-medium footer-link">Buy</a>
+            </li>
+
+            <li>
+              <a href="rent.html" class="body-medium footer-link">Sell</a>
+            </li>
+
+            <li>
+              <a href="rent.html" class="body-medium footer-link">Rent</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-labelledby="nav-label-2">
+          <p class="title-small footer-list-title" id="nav-label-2">Support</p>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="login.html" class="body-medium footer-link">About us</a>
+            </li>
+
+            <li>
+              <a href="contact.html" class="body-medium footer-link">Contact us</a>
+            </li>
+
+            <li>
+              <a href="login.html" class="body-medium footer-link">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="news.html" class="body-medium footer-link">Terms & Conditions</a>
+            </li>
+
+          </ul>
+        </nav>
+
+        <nav class="footer-nav" aria-labelledby="nav-label-3">
+          <p class="title-small footer-list-title" id="nav-label-3">Get in touch</p>
+
+          <ul class="footer-list">
+
+            <li>
+              <a href="#" class="body-medium footer-link">houseandroom@nisetstay.com</a>
+            </li>
+
+            <li>
+              <address class="address body-medium">
+                Teuk Thla, Sen Sok, Phnom Penh, Cambodia
+              </address>
+            </li>
+
+            <li>
+              
+              <ul class="social-list">
+
+                <li>
+                  <a href="https://www.facebook.com/gotopheapb?mibextid=wwXIfr&mibextid=wwXIfr" class="social-link">
+                    <img src="./assets/images/facebook.svg" alt="facebook">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://x.com/gotopheap_b?s=11" class="social-link">
+                    <img src="./assets/images/twitter.svg" alt="twitter">
+                  </a>
+                </li>
+
+                <li>
+                  <a href="https://www.instagram.com/gotopheap.b?igsh=MTU2ZWt5a2JjYnRwZQ%3D%3D&utm_source=qr" class="social-link">
+                    <img src="./assets/images/insta.svg" alt="instagram">
+                  </a>
+                </li>
+
+              </ul>
+
+            </li>
+
+          </ul>
+        </nav>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright body-medium">
+          Copyright 2026 codebysopheap
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+  
+</body>
+</html>
